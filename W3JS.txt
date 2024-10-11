@@ -207,25 +207,300 @@ txt =
 txt.toLowerCase()
 ;
 //PAROU EM STRING METHODS, O PROXIMO É ARRAYS//
+	Q30
 
+const cars = ["Saab", "Volvo", "BMW"];
+let x = 
+cars[1]
+;
+	Q31
 
+const cars = ["Volvo", "Jeep", "Mercedes"];
+cars[0]
+ = "Ford";
+	Q32
 
+const cars = ["Volvo", "Jeep", "Mercedes"];
+alert(
+cars.length
+);
+	Q33
+const fruits = ["Banana", "Orange", "Apple"];
+fruits.pop()
+;
+	Q34
+const fruits = ["Banana", "Orange", "Apple"];
+fruits.push("Kiwi")
+;
+	Q35
+const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+fruits.splice(
+1
+, 
+2
+);
+	Q36
+const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+fruits.sort()
+;
+	Q37
+const d = 
+new Date()
+;
+alert(d);
+	Q38
+const d = new Date();
+year = 
+d.getFullYear()
+;
+	Q39
+const d = new Date();
+month = 
+d.getMonth()
+;
+	Q40
+const d = new Date();
+d.
+setFullYear(2020)
+;
+	Q41
+let r = 
+Math.random()
+;
+	Q42
+let x = 
+Math.max
+(10, 20);
+	Q43
+let x = Math.
+round
+(5.3);
+	Q44
+let x = Math.
+sqrt(9)
+;
+	Q45
+x = 10;
+y = 5;
+alert(x 
+>
+ y);
+	Q46
+x = 10;
+y = 10;
+alert(x 
+==
+ y);
+	Q47
+x = 10;
+y = 5;
+alert(x 
+!=
+ y);
+	Q48
+var age = n;
+var voteable = (age 
+<
+ 18) 
+?
+ "Too young" 
+:
+ "Old enough";
+alert(voteable);
+	Q49
 
+if 
+(
+x > y
+)
+ 
+{
 
+  alert("Hello World");
+}
 
+	Q50
 
+if
+ (x 
+>
+ y) {
+  alert("Hello World");
+} 
+else
+ {
+  alert("Goodbye");
+}
+	Q51
 
+switch
+(fruits) {
+  
+case
+ "Banana":
+    alert("Hello")
+    break;
+  
+case
+ "Apple":
+    alert("Welcome")
+    break;    
+}
+	Q52
+switch(fruits) {
+  case "Banana":
+    alert("Hello")
+    break;
+  case "Apple":
+    alert("Welcome")
+    break;
+  
+default:
 
+    alert("Neither");
+}
+	Q53
+let i;
+for
+ (
+i
+ = 
+0
+; 
+i
+ < 
+10
+; 
+i++
+) {
+  console.log(i);
+}
+	Q54
+const fruits = ["Apple", "Banana", "Orange"];
+for (x 
+of
+ 
+fruits
+) {
+  console.log(x);
+}
+	Q55
+let i = 0;
+while
+ (i 
+<
+ 10) {
+  console.log(i);
+  i++
+}
+	Q56
+let i = 0;
+while (i < 10) {
+  console.log(i);
+  
+i
+ = 
+i
+ 
++
+ 
+2
+;
+}
+	Q57
+for (i = 0; i < 10; i++) {
+  console.log(i);
+  if (i == 5) {
+    
+break
+;
+  }
+}
+	Q58
+for (i = 0; i < 10; i++) {
+  if (i == 5) {
+    
+continue
+;
+  }
+  console.log(i);
+}
+	Q59
+<p id="demo"></p>
 
+<script>
+document.getElementById("demo").innerHTML
+ = "Hello";
+</script>
+	Q60
+<p id="demo"></p>
 
+<script>
+document.getElementsByTagName("p")[0].innerHTML
+ = "Hello";
+</script>
+	Q61
+<p class="test"></p>
+<p class="test"></p>
 
+<script>
+document.getElementsByClassName("test")[0].innerHTML
+ = "Hello";
+</script>
+	Q62
+<img id="image" src="smiley.gif">
 
+<script>
+document.getElementById("image")
+.src
+ = "pic_mountain.jpg";
+</script>
+	Q63
+<input type="text" id="myText" value="Hello">
 
+<script>
+document.getElementById("myText")
+.value
+ = "Have a nice day!";
+</script>
+	Q64
+<p id="demo"></p>
 
+<script>
+document.getElementById("demo")
+.style.color
+ = "red";
+</script>
+	Q65
+<p id="demo"></p>
 
+<script>
+document.getElementById("demo")
+.style.fontSize
+ = "
+40px
+";
+</script>
+	Q66
+<p id="demo"></p>
 
+<script>
+document.getElementById("demo")
+.style.display
+ = "
+none
+";
+</script>
+	Q67
+<button id="demo">Click me1</button>
 
-
+<script>
+document.getElementById("demo").
+addEventListener
+("
+click
+", myFunction);
+</script>
 
 
 
